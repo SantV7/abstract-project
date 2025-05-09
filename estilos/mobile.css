@@ -1,0 +1,17 @@
+@media screen and (min-width:400px) and (max-width:700px) {
+
+    * {
+        transition: ease;
+        transition-timing-function: width 0.3s , height 0.3s;
+    }
+    main {
+        padding: 20px;
+    }
+    .sect-help-search {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #search-help {
+        width: 400px;
+    }
+}
